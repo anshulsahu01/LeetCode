@@ -5,7 +5,7 @@
 <ul>
 	<li>Change the array <code>nums</code> such that the first <code>k</code> elements of <code>nums</code> contain the elements which are not equal to <code>val</code>. The remaining elements of <code>nums</code> are not important as well as the size of <code>nums</code>.</li>
 	<li>Return <code>k</code>.</li>
-</ul>
+</ul> 
 
 <p><strong>Custom Judge:</strong></p>
 
