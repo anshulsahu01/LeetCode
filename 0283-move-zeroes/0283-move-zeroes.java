@@ -10,7 +10,7 @@ class Solution {
         int start=0;
         
         while(end<size){
-            
+            //swap krna hai values change ho rai hai
             if(num[end]!=0){
                 int temp= num[end];
                 num[end]=num[start];
