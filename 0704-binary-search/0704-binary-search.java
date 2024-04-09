@@ -1,4 +1,6 @@
 class Solution {
+    // static int index=0;
+    
     public int search(int[] arr, int target) {
         int start =0;
         int end =arr.length-1;
@@ -16,6 +18,16 @@ class Solution {
               return mid;
           }
       }return -1;
+        
+        
+//         if(arr[index]==arr.length){
+//             return -1;
+//         }
+//         if(arr[index]==target){
+//             return index;
+//         }
+//         ++index;
+//         return search(arr,target);
         
     }  
 }
