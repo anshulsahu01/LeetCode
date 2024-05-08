@@ -10,6 +10,18 @@ class Solution {
             }
         }
        return nums[nums.length-1];
+
+        
+        //2nd way
+//         int ans;
+//         for(int i=0;i<nums.length;i++){
+//             if(nums[i]!=nums[i+1]){
+//                 ans=i;
+//                 return nums[i];
+//             }
+//         }
+//         return -1;
+        
         
     }
 }
