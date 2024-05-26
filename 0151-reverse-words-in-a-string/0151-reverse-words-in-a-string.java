@@ -1,7 +1,12 @@
 class Solution {
     public String reverseWords(String s) {
         
+        
+        //trim  
+        
        String s1= s.trim();
+               // String s1= s;
+
         
         String re="";
         for(int i=0;i<s1.length();i++){
