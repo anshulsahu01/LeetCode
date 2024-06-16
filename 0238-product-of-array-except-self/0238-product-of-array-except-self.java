@@ -21,9 +21,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             ans[i]= left[i]*right[i];
         }
-//         for(int i=0;i<nums.length;i++){
-//             ans[i]=sum/nums[i];
-//         }
+//     left *right karing 
         return ans;
     }
 }
